@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article {
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgb(71, 70, 70);
+    width: 350px;
+    height: 350px;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 50px auto;
+}
+h3{
+    align-items: center;
+}
+.photo{
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.info{
+    text-align: start;
+    padding-top: 1rem;
+    margin-left: 2rem;
+    font-size: 12px;
+}
+.name{
+    padding-top: 3rem;
+    font-size: 28px;
+}
+.email{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 4%;
+}
+.phone{
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 4%;
+}
+.location{
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 4%;
+}
+.button{
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 50%;
+}
+.button-click:hover{
+    background-color: rgba(172, 162, 162, 0.39);
+}
+.button-click{
+    margin-left: 48%;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 4px 4px rgb(71, 70, 70);
+    cursor: pointer;
+}
