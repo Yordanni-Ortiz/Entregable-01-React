@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.App {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 article {
     background-color: white;
     box-shadow: 0 0 5px 5px rgb(71, 70, 70);
@@ -56,7 +62,10 @@ h3{
     background-color: rgba(172, 162, 162, 0.39);
 }
 .button-click{
-    margin-left: 48%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     border: none;
     width: 50px;
